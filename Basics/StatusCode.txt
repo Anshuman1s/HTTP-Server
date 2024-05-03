@@ -1,2 +1,4 @@
 Status code :- 200 -> Success/Ok
 Explaination:- Status code 200 reperesents success which means the page you have requested has been fetched.
+
+Status code :- 201 -> 
