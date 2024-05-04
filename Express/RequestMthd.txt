@@ -1,0 +1,14 @@
+Request methods with explample
+
+1.Get -> Asking something from the server we use this get method
+**Asking to google what is the sum of 12 and 8**
+
+2.Post -> Post request is the request we are giving to server 
+**Posting a image on instagram or posting any Post on Social Media**
+
+3.Put -> When we update a data on server we use put reqest 
+**Update password from website**
+
+4.Delete -> For deleting something from server
+**Deleting account from instagram**
+
