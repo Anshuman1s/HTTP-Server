@@ -1,0 +1,3 @@
+**Important**
+
+You have to take care of that ki user who is serving your website can't read the exceptioon of your website if he is able to read it it's not a good practice..

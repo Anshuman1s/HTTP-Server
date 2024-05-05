@@ -7,8 +7,16 @@ app.use(express.json());
 
 app.post('/health-checkup',function(req,res){
     // kidney = [1,2]
+
     const kidneys = req.body.kidneys;
-    const kidneysLength = kidneys.length;
-    res.send("Your kidney length is " + kidneysLength);
+    if(!kidneys){
+        res.json({
+            msg:"Wrong input"
+        })
+    }else{
+
+        const kidneysLength = kidneys.length;
+        res.send("Your kidney length is " + kidneysLength);
+    }
 })
 app.listen(port);
