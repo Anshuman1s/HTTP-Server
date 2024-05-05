@@ -1,8 +1,10 @@
 const express = require('express');
-const app = expess();
+const app = express();
 const port = 3000;
 
 app.get('/health-checkup',function(req,res){
-
-})
+    console.log("Hey from req 1");
+}),function(req,res){
+    console.log("Hey From req 2");
+}
 app.listen(port);
