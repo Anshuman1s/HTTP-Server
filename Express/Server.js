@@ -7,3 +7,7 @@ app.use(express.json());
 app.get('/', function(req, res) {
     res.send('Data is coming from the server');
 });
+
+app.post('/',function(res,req){
+    res.send('Data is coming from the server');
+})
