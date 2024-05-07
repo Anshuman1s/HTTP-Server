@@ -11,3 +11,7 @@ app.get('/', function(req, res) {
 app.post('/',function(res,req){
     res.send('Data is coming from the server');
 })
+
+app.listen(port, function() {
+    console.log('Server is running on port ' + port);
+});
