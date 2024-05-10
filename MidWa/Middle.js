@@ -17,3 +17,6 @@ app.get('/health-checkup2',function(req,res){
 app.get('/health-checkup',function(req,res){
 
 })
+app.listen(port,function(){
+    console.log(`Server is running on ${port}`);
+})
