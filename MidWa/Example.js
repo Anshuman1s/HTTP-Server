@@ -20,5 +20,8 @@ app.get('/health-checkup',function(req,res){
         msg: "Hey Anshuman"
     })
 })
+app.post('/',function(req,res){
+    res.send();
+})
 
 app.listen(port);
