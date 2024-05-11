@@ -26,5 +26,8 @@ app.post('/',function(req,res){
 app.put('/',function(req,res){
     
 })
+app.delete('/',function(req,res){
+    
+})
 
 app.listen(port);
