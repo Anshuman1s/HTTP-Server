@@ -9,10 +9,10 @@ function calculateRequests(req,res,next){
     next();
 }
 app.get('/health-checkup',function(req,res){
-    
+    res.send("You want to check  your health-checkup");
 })
 app.get('/health-checkup2',function(req,res){
-
+    
 })
 app.get('/health-checkup',function(req,res){
 
