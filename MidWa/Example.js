@@ -23,5 +23,8 @@ app.get('/health-checkup',function(req,res){
 app.post('/',function(req,res){
     res.send();
 })
+app.put('/',function(req,res){
+    
+})
 
 app.listen(port);
