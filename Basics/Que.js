@@ -9,5 +9,5 @@ app.post('/',function(req,res){
     res.send("Posted")
 })
 app.listen(port,function(){
-    console.log(`Server is running on ${port}`);
+    console.log(`Server is running on. ${port}`);
 })
