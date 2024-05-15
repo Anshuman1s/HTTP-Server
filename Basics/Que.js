@@ -6,7 +6,7 @@ app.get('/',function(req,res){
     res.send("First Route.");
 })
 app.post('/',function(req,res){
-    res.send("Posted")
+    res.send("Posted.")
 })
 app.listen(port,function(){
     console.log(`Server is running on. ${port}`);
