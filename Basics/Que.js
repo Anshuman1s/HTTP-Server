@@ -6,6 +6,7 @@ app.get('/',function(req,res){
     res.send("First Route.");
 })
 app.post('/',function(req,res){
+    const n = req.query;
     res.send("Posted.")
 })
 app.listen(port,function(){
