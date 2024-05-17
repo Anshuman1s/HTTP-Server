@@ -18,7 +18,7 @@ app.get('/healthCheckup',function(req,res){
     }
     
     res.json({
-        msg:"Your Kidney is Fine"
+        msg:"Your Kidney is Fine."
     })
 
 });
