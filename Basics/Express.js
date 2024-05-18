@@ -7,7 +7,7 @@ app.get('/',function(req,res){
     res.send("Anshuman Shukla.")
 })
 app.put('/',function(req,res){
-    res.send("Put method")
+    res.send("Put method.")
 })
 
 app.listen(PORT,function(){
