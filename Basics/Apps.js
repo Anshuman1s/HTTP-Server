@@ -8,5 +8,7 @@ app.get('/',function(req,res){
     })
 })
 app.get('/profile',function(req,res){
-
+res.send({
+    username:"Anshuman"
+})
 })
