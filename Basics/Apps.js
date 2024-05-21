@@ -10,7 +10,8 @@ app.get('/',function(req,res){
 app.get('/profile',function(req,res){
 res.send({
     username:"Anshuman",
-    profile_pic:'<img src="">'
+    profile_pic:'<img src="">',
+    edit:true
 })
 })
 app.listen(port,function(){
