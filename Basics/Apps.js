@@ -15,7 +15,7 @@ res.send({
 })
 })
 app.post('/edit',function(req,res){
-    req.query.n
+    const n = req.query.n
 })
 app.listen(port,function(){
     console.log("Server is running on "+port);
