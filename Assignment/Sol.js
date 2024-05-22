@@ -8,4 +8,5 @@ let varr;
 let miu;
 function CalculatePoints(x,miu,varr){
     z = (x+miu)/varr
+    console.log(z);
 }
