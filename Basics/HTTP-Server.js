@@ -14,5 +14,5 @@ app.post('/',function(req,res){
     res.send("Message Recieved..")
 })
 app.listen(PORT,function(){
-    console.log(`Port Listeing on no ${PORT}.`);
+    console.log(`Port Listeing on no ${PORT}..`);
 })
