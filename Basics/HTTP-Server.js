@@ -5,7 +5,7 @@ const app = express(); // Clinic of Doctor
 const PORT = 3000; //The room where Doctor will meet with patient
 app.get('/',function(req,res){
    req.send({
-    msg:"Done",
+    msg:"Done.",
     name:String
    })
 })
