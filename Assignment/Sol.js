@@ -10,3 +10,4 @@ function CalculatePoints(x,miu,varr){
     z = (x+miu)/varr
     console.log(z);
 }
+CalculatePoints(12,20,16)
