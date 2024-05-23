@@ -22,3 +22,4 @@ function calculateSquare(n){
     }
 }
 calculateSquare(0);
+calculateSquare(12);
