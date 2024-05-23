@@ -21,3 +21,4 @@ function calculateSquare(n){
         console.log(`The square of ${n} is`+n*n);
     }
 }
+calculateSquare(0);
