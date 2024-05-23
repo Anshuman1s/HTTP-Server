@@ -18,6 +18,6 @@ function calculateSquare(n){
     if(x==0){
         console.log(`The square of 0 is${n}`);
     }else{
-        
+        console.log(`The square of ${n} is`+n*n);
     }
 }
