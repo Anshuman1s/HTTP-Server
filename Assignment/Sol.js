@@ -17,5 +17,7 @@ function CalculatePoints(x,miu,varr){
 function calculateSquare(n){
     if(x==0){
         console.log(`The square of 0 is${n}`);
+    }else{
+        
     }
 }
