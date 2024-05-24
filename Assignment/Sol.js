@@ -32,5 +32,7 @@ function isPrime(x){
         console.log(`${x} is prime:`);
     }else if(x%2!=0 && x%3!=0){
         console.log(`${x} is prime:`);
+    }else{
+        console.log(`${x} is not a prime number:`);
     }
 }
