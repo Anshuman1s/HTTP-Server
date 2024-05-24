@@ -30,5 +30,7 @@ calculateSquare(12);4*/
 function isPrime(x){
     if(x===1 || x===2){
         console.log(`${x} is prime:`);
+    }else if(x%2!=0 && x%3!=0){
+        console.log(`${x} is prime:`);
     }
 }
