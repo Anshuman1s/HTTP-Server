@@ -14,6 +14,7 @@ function CalculatePoints(x,miu,varr){
 
 // Write a function which calculate the square of input value
 
+/*
 function calculateSquare(n){
     if(x==0){
         console.log(`The square of 0 is${n}`);
@@ -22,4 +23,6 @@ function calculateSquare(n){
     }
 }
 calculateSquare(0);
-calculateSquare(12);
+calculateSquare(12);4*/
+
+// 
