@@ -25,4 +25,4 @@ function calculateSquare(n){
 calculateSquare(0);
 calculateSquare(12);4*/
 
-// 
+// find the number is prime or not 
