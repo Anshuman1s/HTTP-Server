@@ -28,5 +28,7 @@ calculateSquare(12);4*/
 // find the number is prime or not 
 
 function isPrime(x){
-    
+    if(x===1 || x===2){
+        console.log(`${x} is prime:`);
+    }
 }
