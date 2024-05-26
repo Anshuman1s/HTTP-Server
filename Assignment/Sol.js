@@ -36,3 +36,6 @@ function isPrime(x){
         console.log(`${x} is not a prime number:`);
     }
 }
+
+// Write a code for finding largest number in array;
+
