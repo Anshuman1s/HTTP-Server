@@ -40,9 +40,11 @@ function isPrime(x){
 // Write a code for finding largest number in array;
 
 let arr = [1,2,3,10,99];
-
-function largestNumber(x){
+let target = 99;
+function largestNumber(x,y){
     for(let i=0;i<arr.length;i++){
-        
+        if(y == arr[i]){
+            console.log(arr[i]);
+        }
     }
 }
