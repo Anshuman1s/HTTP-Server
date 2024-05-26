@@ -48,6 +48,7 @@ function largestNumber(x,y){
 
         }else{
             console.log("Not Found:");
+            break;
         }
     }
 }
