@@ -17,3 +17,6 @@ console.log(app);
 app.post('/upload',function(req,res){
     res.sendStatus(`img src ="url"`)
 })
+app.delete('/profile',function(req,res){
+    
+})
