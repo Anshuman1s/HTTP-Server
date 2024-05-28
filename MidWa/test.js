@@ -10,13 +10,13 @@ console.log(app);
 //     res.send('Hey')
 // });
 
-// app.listen(port,function(){
-//     console.log(`Server is runnng on port number: ${port}`);
-// })
 
 app.post('/upload',function(req,res){
     res.sendStatus(`img src ="url"`)
 })
 app.delete('/profile',function(req,res){
     // remove profile image using thos route
+})
+app.listen(port,function(){
+    console.log(`Server is runnng on port number: ${port}`);
 })
