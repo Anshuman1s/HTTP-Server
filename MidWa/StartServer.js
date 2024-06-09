@@ -6,5 +6,5 @@ app.get('/',function(req,res){
     res.send("Anshuman")
 })
 app.listen(port,function(){
-   
+   console.log(`Server is running on port ${port}`);
 })
