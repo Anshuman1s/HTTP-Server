@@ -9,7 +9,7 @@ app.post("/",function(req,res){
     
 })
 app.get("/profile",function(req,res){
-    
+    res.send(``)
 })
 app.listen(port,function(){
    console.log(`Server is running on port ${port}`);
