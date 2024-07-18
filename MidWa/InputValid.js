@@ -7,7 +7,7 @@ app.use(express.json());
 
 app.post('/health-checkup',function(req,res){
     // kidney = [1,2]
-
+    // if true
     const kidneys = req.body.kidneys;
     if(!kidneys){
         res.json({
