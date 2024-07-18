@@ -13,6 +13,7 @@ app.post('/health-checkup',function(req,res){
         res.json({
             msg:"Wrong input"
         })
+        // if false
     }else{
 
         const kidneysLength = kidneys.length;
