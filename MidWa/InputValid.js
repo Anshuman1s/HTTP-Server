@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.use(express.json()); 
-// If we not use this req.body.kidneys will not extract 
+// If we not use this req.body.kidneys will not extract we can also use body parser insetead of using express.json()
 
 app.post('/health-checkup',function(req,res){
     // kidney = [1,2]
