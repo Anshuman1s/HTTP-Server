@@ -23,7 +23,8 @@ app.post('/health-checkup',function(req,res){
 // Global Catches if Exception Raise This will be handle
 app.use(function(err,req,res,next){
     res.json({
-        msg:"Sorry Something is up with our Server"
+        msg:"Sorry Something is up with our Server",
+        format:"Incorrect",
     })
 })
 app.get('/',function(req,res){
