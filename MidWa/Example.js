@@ -7,7 +7,7 @@ let numberOfRequest =0;
 function calculateRequests(req,res,next){
     numberOfRequest++;
     console.log(numberOfRequest);
-    next();
+    next();  //middleware itself
 }
 
 app.use(express.json());
