@@ -23,3 +23,5 @@ app.get('/healthCheckup',function(req,res){
 
 });
 app.listen(port)
+
+// get => when ever asking for something from server
