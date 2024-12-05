@@ -4,6 +4,7 @@ const port = 3000;
 
 let numberOfRequest = 0;
 // its a middleware function that after execuation it will call next function
+// and next is inbuild function for middleware in express()
 function calculateRequests(req,res,next){
     numberOfRequest++;
     next();
