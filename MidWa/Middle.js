@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 let numberOfRequest = 0;
-
+// its a middleware function that after execuation it will call next function
 function calculateRequests(req,res,next){
     numberOfRequest++;
     next();
